@@ -1,0 +1,17 @@
+import { networkInterfaces } from "os";
+
+interface Ad {
+    id:string ;
+    name: String;
+    createAt: Date;
+}
+
+function calcularHaQuantoTempoOAnuncioFoiPublicado( ad: Ad ){
+
+}
+
+calcularHaQuantoTempoOAnuncioFoiPublicado({
+    id : '1',
+    name : 'carlos',
+    createAt: new Date(),
+})
